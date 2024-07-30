@@ -103,6 +103,7 @@ body {
     flex-basis: 30%;
     width: 30%;
     background-color: green;
+    border-radius: 30px;
 }
 
 .d22 {
@@ -137,6 +138,7 @@ body {
 @media (max-width: 1000px) {
   .d21 {
     flex: 100%;
+    border-radius: 0px;
   }
 }
 
