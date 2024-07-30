@@ -1,4 +1,4 @@
-\.]body {
+body {
     background-color: #eeffee;
 }
 
@@ -14,7 +14,7 @@
 .container {
     font-family: sans-serif;
     shape-image-threshold: 10px;
-    
+
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
@@ -22,13 +22,13 @@
     align-content: center;
     text-align: center;
     place-content: center;
-    
+
     padding-left: 50px;
     padding-right: 50px;
-    
+
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    
+
 /*
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 250px 250px;
@@ -76,10 +76,23 @@
 .div2xcon {
     font-family: sans-serif;
     shape-image-threshold: 10px;
-    
+
     display: flex;
     flex-wrap: wrap;
-    
+
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    place-content: center;
+}
+
+.div2xconR {
+    font-family: sans-serif;
+    shape-image-threshold: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
     justify-content: space-between;
     align-content: center;
     text-align: center;
@@ -89,41 +102,13 @@
 .d21 {
     flex-basis: 30%;
     width: 30%;
-    border-radius: 30px;
     background-color: green;
-}
-
-@media (max-width: 1000px) {
-  .d21 {
-    flex: 100%;
-    border-radius: 0px;
-  }
 }
 
 .d22 {
     flex-basis: 70%;
     width: 70%;
     background-color: #eeffee;
-}
-
-@media (max-width: 1000px) {
-  .d22 {
-    flex-basis: 100%;
-    flex: 100%;
-  }
-}
-
-.div2xconR {
-    font-family: sans-serif;
-    shape-image-threshold: 10px;
-    
-    display: flex;
-    flex-wrap: wrap;
-    
-    justify-content: space-between;
-    align-content: center;
-    text-align: center;
-    place-content: center;
 }
 
 .d50501 {
@@ -137,6 +122,11 @@
     width: 100%;
     background-color: #eeffee;
 }
+.d50502 img {
+    flex-basis: 100%;
+    width: 100%;
+    background-color: #eeffee;
+}
 
 .d50502 {
     flex-basis: 50%;
@@ -144,10 +134,16 @@
     background-color: #eeffee;
 }
 
-.d50502 img {
+@media (max-width: 1000px) {
+  .d21 {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .d22 {
     flex-basis: 100%;
-    width: 100%;
-    background-color: #eeffee;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -193,13 +189,13 @@ mark {
 
 h1 {
     font-family: Fredoka;
-    
+
     text-align: center;
     font-style: normal;
-    
+
     font-size: 45px;
     font-weight: 600;
-    
+
     padding-left: 10px;
     padding-right: 10px;
     white-space: pre-wrap
@@ -207,13 +203,13 @@ h1 {
 
 h2 {
     font-family: Fredoka;
-    
+
     text-align: center;
     font-style: normal;
-    
+
     font-size: 40px;
     font-weight: 600;
-    
+
     padding-left: 10px;
     padding-right: 10px;
     white-space: pre-wrap
@@ -221,32 +217,32 @@ h2 {
 
 h3 {
     font-family: Fredoka;
-    
+
     text-align: center;
     font-style: normal;
-    
+
     font-size: 35px;
     font-weight: 600;
-    
+
     padding-left: 10px;
     padding-right: 10px;
     white-space: pre-wrap
-    
+
 }
 
 h4 {
     font-family: Fredoka;
-    
+
     text-align: center;
     font-style: normal;
-    
+
     font-size: 25px;
     font-weight: 600;
-    
+
     padding-left: 10px;
     padding-right: 10px;
     white-space: pre-wrap
-    
+
 }
 
 p {
@@ -268,7 +264,7 @@ a {
     padding-right: 10px;
     word-wrap: break-word;
     white-space: pre-wrap;
-    
+
     transition: font-size 0.5s;
 }
 
@@ -317,7 +313,3 @@ a {
     margin: auto;
     width: min(75%, 350px);
 }
-
-
-
-
