@@ -119,13 +119,13 @@ body {
 }
 
 .d50501 img {
-    flex-basis: 100%;
-    width: 100%;
+    flex-basis: 95%;
+    width: 95%;
     background-color: #eeffee;
 }
 .d50502 img {
-    flex-basis: 100%;
-    width: 100%;
+    flex-basis: 95%;
+    width: 95%;
     background-color: #eeffee;
 }
 
@@ -157,6 +157,7 @@ body {
 @media (max-width: 1000px) {
   .d50502 {
     flex-basis: 100%;
+    
   }
 }
 
